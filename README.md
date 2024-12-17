@@ -7,10 +7,11 @@
 ### technology used 
 
 
-react js
-tailwind  css
-firebase storage 
-gemini api
+react js \
+tailwind  css \
+firebase storage \
+gemini api\
+node js server
 
 
 
