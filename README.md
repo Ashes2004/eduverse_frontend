@@ -1,16 +1,20 @@
 # Getting Started with Create React App
 <h1>Backend Url </h1> [Backend url ](https://github.com/Ashes2004/eduverse_backend).
 
-## Available Scripts
 
-In the project directory, you can run:
 
 
 ##technology used 
+
 react js
 tailwind  css
 firebase storage 
 gemini api
+
+
+
+
+
 
 ### `npm start`
 
