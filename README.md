@@ -5,6 +5,13 @@
 
 In the project directory, you can run:
 
+
+##technology used 
+react js
+tailwind  css
+firebase storage 
+gemini api
+
 ### `npm start`
 
 Runs the app in the development mode.\
