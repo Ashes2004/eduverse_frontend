@@ -11,7 +11,8 @@ react js \
 tailwind  css \
 firebase storage \
 gemini api\
-node js server
+node js server \
+rest api
 
 
 
