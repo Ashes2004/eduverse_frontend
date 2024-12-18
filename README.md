@@ -1,70 +1,119 @@
-# Getting Started with Create React App
+# Eduverse: An AI-Powered Smart Education Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to **Eduverse**, a next-generation educational platform designed to revolutionize learning through artificial intelligence. Our platform empowers students, teachers, and administrators with personalized tools and resources for effective learning and management.
 
-## Available Scripts
+<h1>Backend URL</h1>
+[Backend Repository](https://github.com/Ashes2004/eduverse_backend)
 
-In the project directory, you can run:
+## Features
+
+### AI Quiz Maker
+Generate customized quizzes tailored to students' learning levels and topics for better understanding and assessment.
+
+### AI-Powered Study Hub
+Personalized study materials, video recommendations, and learning plans based on individual performance and weak areas.
+
+### Leaderboard and Point System
+Encourage healthy competition with a leaderboard and point system that tracks and rewards progress.
+
+### Assignments Section
+Manage and submit assignments seamlessly with our integrated assignment management system.
+
+### Chatbot for Doubt Solving
+Get instant answers to your questions with our AI chatbot, available 24/7 for doubt resolution.
+
+### AI-Powered Personal Goal Maker
+Set and achieve learning goals with AI-generated strategies, routines, and focus areas based on weak topics.
+
+### AI Notes Maker
+Generate concise, well-structured notes to enhance understanding and retention of complex topics.
+
+### Inventory Management
+Efficiently manage educational resources and materials for streamlined classroom operations.
+
+## Getting Started
+
+Follow these instructions to set up and run the project locally.
+
+### Technology Used
+
+- **React.js**: Frontend framework for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Firebase Storage**: Secure file storage.
+- **Gemini API**: AI and data integration.
+- **Node.js Server**: Backend runtime.
+- **REST API**: Communication between frontend and backend.
+
+### Prerequisites
+
+Ensure you have the following installed:
+- Node.js
+- npm (Node Package Manager)
+- Git
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Ashes2004/eduverse_frontend.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd eduverse_frontend
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+
+### Environment Variables
+
+Create a `.env` file in the root directory and add the following:
+```
+REACT_APP_FIREBASE_API_KEY=
+REACT_APP_FIREBASE_AUTH_DOMAIN=
+REACT_APP_FIREBASE_PROJECT_ID=
+REACT_APP_FIREBASE_STORAGE_BUCKET=
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=
+REACT_APP_FIREBASE_APP_ID=
+REACT_APP_FIREBASE_MEASUREMENT_ID=
+```
+
+## Scripts
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Runs the app in development mode. The page will reload when you make changes.
 
 ### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in interactive watch mode.
 
 ### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Builds the app for production to the `build` folder. The app is optimized for the best performance.
 
 ### `npm run eject`
+Ejects the app for full control over the configuration. **Use with caution.**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Deployment
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Follow the [Create React App deployment guide](https://facebook.github.io/create-react-app/docs/deployment) for deploying your app.
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Learn more about the tools and frameworks used in this project:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [React.js Documentation](https://reactjs.org/)
+- [Create React App Documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+- [Tailwind CSS Documentation](https://tailwindcss.com/)
+- [Node.js Documentation](https://nodejs.org/en/)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for exploring Eduverse! Let's make education smarter and more accessible together.
