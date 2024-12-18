@@ -74,6 +74,19 @@ Ensure you have the following installed:
    ```
    Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
+### Environment Variables
+
+Create a `.env` file in the root directory and add the following:
+```
+REACT_APP_FIREBASE_API_KEY=
+REACT_APP_FIREBASE_AUTH_DOMAIN=
+REACT_APP_FIREBASE_PROJECT_ID=
+REACT_APP_FIREBASE_STORAGE_BUCKET=
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=
+REACT_APP_FIREBASE_APP_ID=
+REACT_APP_FIREBASE_MEASUREMENT_ID=
+```
+
 ## Scripts
 
 ### `npm start`
