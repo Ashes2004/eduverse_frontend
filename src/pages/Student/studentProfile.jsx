@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import StudentSidebar from '../../components/StudentSidebar';
+import { useNavigate } from 'react-router-dom';
 
 const StudentProfile = () => {
   const [student, setStudent] = useState(null);
   const [newPassword, setNewPassword] = useState('');
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
-
-  useEffect(() => {
+  const navigate = useNavigate();
+    useEffect(() => {
     const studentId = sessionStorage.getItem('studentId');
     if (studentId) {
       fetch(`http://localhost:5000/api/student/${studentId}`)
@@ -88,6 +89,13 @@ const StudentProfile = () => {
               <p className="font-medium text-gray-600">Parent Contact: {student.parentContact}</p>
               <p className="font-medium text-gray-600">Points: {student.points}</p>
             </div>
+
+            <button
+              onClick={()=> navigate('/student/enrollement-request')}
+              className="mt-4 w-64 bg-green-600 text-white p-3 rounded-md hover:bg-blue-700 transition duration-300"
+            >
+              Enrollment Request
+            </button>
           </div>
 
           {/* Password Update */}

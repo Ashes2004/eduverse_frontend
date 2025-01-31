@@ -89,7 +89,7 @@ const AdminDashboard = () => {
             <p className="text-gray-600 dark:text-gray-400 mt-2">
               Assign students to specific classes for better management.
             </p>
-            <button className="mt-4 bg-indigo-600 dark:bg-indigo-500 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 dark:hover:bg-indigo-400 transition">
+            <button onClick={()=>navigate('/admin/student-enrollment')} className="mt-4 bg-indigo-600 dark:bg-indigo-500 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 dark:hover:bg-indigo-400 transition">
               Enroll Now
             </button>
           </div>
